@@ -9,13 +9,15 @@ function Modal({ closeModal, userName }) {
           <button onClick={closeModal}>X</button>
         </div>
         <div className="title">
-          <h1>Modal Title</h1>
+          <h1>From Lily & Fox</h1>
         </div>
         <div className="body">
           <p>Thank you, {userName}, for getting in contact with us!</p>
         </div>
         <div className="footer">
-          <button  className="close-btn" onClick={closeModal}>Cancel</button>
+          <button className="close-btn" onClick={closeModal}>
+            Cancel
+          </button>
           <button className="continue-btn">Continue</button>
         </div>
       </div>

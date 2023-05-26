@@ -8,51 +8,50 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .modalContainer {
+}
+
+.modalContainer {
     background-color: #fff;
-    padding: 20px;
     border-radius: 4px;
     max-width: 400px;
     width: 100%;
-  }
-  
-  .modalClose {
+    font-family: 'Playfair', serif;
+}
+
+.modalClose {
     display: flex;
     justify-content: flex-end;
-  }
-  .modalClose button {
+}
+.modalClose button {
     border: none;
     background-color: transparent;
     font-size: 20px;
     cursor: pointer;
     color: black;
     text-indent: 200px;
-  }
-  .modalContainer .title h1 {
+}
+.modalContainer .title h1 {
     display: flex;
     text-align: center;
-    margin-top: 10px;
-    text-indent: 90px;
-  }
-  .footer {
+    justify-content: center;
+}
+.footer {
     display: flex;
     justify-content: flex-end;
-  }
-  .continue-btn {
+}
+.continue-btn {
     background-color: #423333;
     cursor: pointer;
     font-size: 20px;
     text-align: center;
-  }
-  .close-btn {
+}
+.close-btn {
     background-color: #f7a66b;
-    color : #fff;
+    color: #fff;
     cursor: pointer;
     font-size: 20px;
-  }
-  .footer button {
+}
+.footer button {
     color: white;
     display: flex;
     align-items: center;
@@ -60,8 +59,7 @@
     font-size: 20px;
     text-indent: 5px;
     width: 40%;
-    
-  }
- .body {
+}
+.body {
     text-align: center;
- }
+}

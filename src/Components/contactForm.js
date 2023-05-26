@@ -29,7 +29,10 @@ const Form = () => {
             type="checkbox"
             name="checkbox"
             defaultChecked
-          /> <label htmlFor="checkbox">I agree to being sent marketing and email offers.</label>
+          />{" "}
+          <label htmlFor="checkbox">
+            I agree to being sent marketing and email offers.
+          </label>
         </div>
         <button
           className="openModal"
